@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <link rel="stylesheet" href="newhtml4.html" type="text/css"/>
+
+    
+<title>Welcome to</title>
+    
+<style>
+  {
+margin: 0;
+padding: 0;
+}
+.main{
+width: 100%;
+background:linear-gradient(to top,rgba(0, 0, 0,0.2)100%,rgba(0,0,0,0.6)50%),url(https://booksforwriting.com/wp-content/uploads/2024/05/pexels-cottonbro-3944463-scaled.jpg);
+background-position: center;
+background-size: cover;
+height: 155vh;
+
+}
+
+.navbar{
+width: 1200;
+height: 75px;
+margin:auto ;
+}
+
+.menu{
+height: 70px;
+width: 400;
+float: left;
+padding: 0 25px;
+display:flex;
+margin-left: 400px;
+margin-top: 10px;
+font-size: 20px;
+font-family: sans-serif;
+
+
+}
+ a{
+text-decoration: none;
+color:#000000 ;
+font-family: Arial;
+font-weight: bold;
+transition: 0.2s ease-in-out;
+padding: 20px;
+
+}
+  a:hover{
+color:#068bff;
+
+}
+.content{
+width: 1400px;
+height: auto;
+margin: auto;
+color:#252626;
+position: absolute;
+top: 250px;
+left: 300px;
+font-size: 30px;
+ text-decoration: none;
+}
+.card{
+width: 200px;
+height: 230px;
+display: inline-block;
+border-radius: 20px;
+padding: 15px 20px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+font-size: 14px;
+background-position: center;
+background-size: cover;
+transition: transform 0.2s;
+
+}
+.card1{
+  background-image: url(https://student-cms.prd.timeshighereducation.com/sites/default/files/styles/default/public/different_sports.jpg?itok=CW5zK9vp.jpg/50);
+  margin-top: 290px;
+padding-inline: 10px;
+color:black;
+}
+.card2{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsiCzE7YaLY0EM3_NRLcgYCuemqkKZjKoOrtNB1O5-ghuTX1jjHxM97bZSYaEIglqq_Ww&usqp=CAU);
+color: black;
+
+}
+.card3{
+  background-image: url(https://c0.wallpaperflare.com/preview/994/643/806/times-square-united-states-new-york-people.jpg); 
+  color: black;
+}
+
+.card4{
+  background-image: url(https://cdn.prod.website-files.com/5f2b1efb0f881760ffdc5c96/65293ad388e7f519253c23b6_cuu_mexygabriel_design_banner-scaled-p-800.jpg);
+color: black;
+
+}
+.card5{
+  background-image: url(https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139103.jpg?ga=GA1.1.1876282933.1734727223&semt=ais_hybrid);
+color: black;
+
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+</style>
+
+
+</head>
+<body>
+    <p id="showDte"></p>
+    <div class="main">
+        <button onclick="window.close()"style="
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer;">close the website</button>
+        <button onclick="displayDate()"style="
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer;">Date</button>
+    <div class="navbar">
+        
+
+<div class="menu">
+
+<a href="index.html" style="font-family: Arial">Home</a>
+            <a href="newhtml.html" style="font-family: Arial">Sport</a>
+            <a href="newhtml3.html" style="font-family: Arial">Social</a>
+            <a href="newhtml4.html" style="font-family: Arial">Political</a>
+             <a href="newhtml1.html" style="font-family: Arial">Technology</a>
+              <a href="newhtml5.html" style="font-family: Arial">Contact us</a>
+<div class="content">
+<h1>WELCOME To KHOLASA</h1>
+
+<hr style="width: 720px; text-decoration: none;">
+  
+<div class="card card1">
+    <h1>Sport</h1>
+    <a href="newhtml.html">Sports</a>
+
+    </div> 
+    <div class="card card2">
+        <h1>Social</h1>
+        <a href="newhtml3.html">Social</a>
+        </div> 
+<div class="card card3">
+            <h1>Political</h1>
+         <a href="newhtml4.html">Political</a>
+            </div> 
+
+<div class="card card4">
+            <h1>Technology</h1>
+         <a href="newhtml1.html">Technology</a>
+
+
+</div>
+              <div class="card card5">
+            <h1>Contact us</h1>
+         <a href="newhtml5.html">Contact us</a>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<Script language="javascript">
+    var x;
+    x=(prompt("Enter your name ",""));
+    alert("Welcome "+x);
+    function f(){
+    name=document.form.username.value;
+    alert("Welcome "+name);
+    
+    }
+    function displayDate(){
+        today=new Date();
+        alert(today);
+       }
+
+    
+    
+</Script>
+
+</body>
+</html>
